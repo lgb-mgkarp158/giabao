@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
@@ -37,9 +37,12 @@
       <a href="#reflection" class="nav-item" id="nav-reflection">🚀 Phản tư &amp; Định hướng</a>
     </nav>
 
-    <div class="sidebar-footer">
-      <p>// VNU1001_E252050</p>
-      <p>// Học kỳ II · 2026</p>
+    <div class='sidebar-footer'>
+      <div class='sidebar-status'>
+        <span class='status-indicator'></span>
+        <span class='status-text'>VNU1001 · E252050</span>
+      </div>
+      <div class='sidebar-term'>Học kỳ II · 2026</div>
     </div>
   </aside>
 
@@ -49,9 +52,15 @@
     <section class="section active" id="intro">
       <div class="hero-card">
         <div class="grid-lines"></div>
-        <p class="eyebrow">// Digital Portfolio · Nhập môn Công nghệ số &amp; AI · UET-ĐHQGHN</p>
+        <div class='eyebrow-badge'>
+          <span class='pulse-dot'></span>
+          <span>Digital Portfolio · Nhập môn Công nghệ số &amp; AI · UET-ĐHQGHN</span>
+        </div>
         <h1>Hành trình chinh phục Khoa học Máy tính &amp; Trí tuệ Nhân tạo</h1>
-        <p class="lead">Chào mừng đến không gian học thuật số của Lê Gia Bảo — sinh viên năm nhất ngành Khoa học Máy tính, Đại học Công nghệ. Đây là nơi hệ thống hóa 6 bài thực hành của học phần VNU1001, thể hiện hành trình từ thao tác tệp tin cơ bản đến nghiên cứu chuyên sâu về Mô hình Ngôn ngữ Lớn và ứng dụng AI có trách nhiệm.</p>
+        <div class='lead-bio'>
+          <p>Tôi là Lê Gia Bảo, sinh viên ngành Khoa học máy tính, yêu thích cách công nghệ biến những ý tưởng trừu tượng thành sản phẩm có thể sử dụng được. Tôi có hứng thú với lập trình ứng dụng, trí tuệ nhân tạo, thiết kế giao diện và các công cụ số giúp học tập hiệu quả hơn.</p>
+          <p>Ngoài giờ học, tôi thích tìm hiểu các sản phẩm công nghệ mới, đọc các bài viết về AI, thử nghiệm những công cụ hỗ trợ lập trình, nghe nhạc để tập trung và ghi chú lại các ý tưởng nhỏ có thể phát triển thành dự án cá nhân. Tôi xem portfolio này như một bản ghi quá trình trưởng thành ban đầu của mình trong môi trường đại học.</p>
+        </div>
 
         <div class="intro-grid">
           <div class="intro-box">
@@ -68,6 +77,37 @@
             <span class="box-icon">⚙️</span>
             <h4>Build &amp; Create</h4>
             <p>Từ quản lý dữ liệu đến hợp tác số và sáng tạo nội dung — xây dựng sản phẩm thực chiến kết hợp tư duy kỹ thuật và AI.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== ABOUT ME ==================== -->
+      <div class='about-me-container'>
+        <div class='about-me-header'>
+          <div class='header-icon'>
+            <svg width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'></path><circle cx='12' cy='7' r='4'></circle></svg>
+          </div>
+          <h3>Hồ sơ cá nhân &amp; Định hướng phát triển</h3>
+          <div class='active-line'></div>
+        </div>
+        <div class='about-me-grid'>
+          <div class='about-me-card'>
+            <div class='about-icon'>🧠</div>
+            <span class='card-tag tag-cyan'>Sở thích</span>
+            <h4>Công nghệ, AI và sản phẩm số</h4>
+            <p>Tôi thích khám phá cách website, ứng dụng và các mô hình AI được xây dựng. Việc tự thử công cụ mới giúp tôi hiểu rõ hơn vai trò của người dùng, người thiết kế và người phát triển phần mềm.</p>
+          </div>
+          <div class='about-me-card'>
+            <div class='about-icon'>🎯</div>
+            <span class='card-tag tag-violet'>Mục tiêu học tập</span>
+            <h4>Nắm chắc nền tảng khoa học máy tính</h4>
+            <p>Mục tiêu gần của tôi là học vững lập trình, cấu trúc dữ liệu, giải thuật, cơ sở dữ liệu và kỹ năng làm việc nhóm. Tôi muốn biết cách dùng AI để học nhanh hơn nhưng vẫn tự kiểm chứng và hiểu bản chất.</p>
+          </div>
+          <div class='about-me-card'>
+            <div class='about-icon'>🚀</div>
+            <span class='card-tag tag-green'>Định hướng cá nhân</span>
+            <h4>Trở thành kỹ sư phần mềm có tư duy AI</h4>
+            <p>Trong dài hạn, tôi muốn phát triển theo hướng kỹ sư phần mềm hoặc AI engineer, có khả năng xây dựng sản phẩm hữu ích, viết mã có trách nhiệm và kết hợp công nghệ với tư duy phản biện.</p>
           </div>
         </div>
       </div>
@@ -146,7 +186,10 @@
         └── DiChuyen.txt          ← (Moved from root)</pre>
         </div>
 
-        <a class="action-btn" href="docs/w1.docx" download>$ download Bai1.docx</a>
+        <a class='action-btn' href='docs/w1.docx' download>
+          <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path><polyline points='7 10 12 15 17 10'></polyline><line x1='12' y1='15' x2='12' y2='3'></line></svg>
+          Tải Báo cáo Bài 1 (.docx)
+        </a>
       </article>
     </section>
 
@@ -162,7 +205,10 @@
         </div>
 
         <div class="research-intro">
-          <h4>// Bối cảnh nghiên cứu</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>📖</span>
+            <h4>Bối cảnh nghiên cứu</h4>
+          </div>
           <p>Năm 2025 đánh dấu bước ngoặt lịch sử trong chu kỳ nghiên cứu AI: các LLMs chuyển dịch từ công cụ thử nghiệm đơn lẻ thành hạ tầng tiện ích toàn cầu thiết yếu. Stanford HAI báo cáo tổng đầu tư tư nhân vào Generative AI đạt <strong>33.9 tỷ USD</strong>, chiếm &gt;20% tổng đầu tư AI toàn cầu. IEEE dự báo LLMs đang tạo ra "sân chơi bình đẳng" mới cho doanh nghiệp — định hình lại cấu trúc tự động hóa thông minh.</p>
           <div class="query-block">
             <strong>Search query:</strong>
@@ -205,7 +251,7 @@
 
         <div class="table-wrap">
           <table>
-            <caption>// Bảng đánh giá độ tin cậy 10 nguồn tài liệu tham khảo chính</caption>
+            <caption><span class='caption-badge'>Bảng phân tích</span> Đánh giá độ tin cậy 10 nguồn tài liệu tham khảo chính</caption>
             <thead>
               <tr>
                 <th>STT</th>
@@ -324,7 +370,10 @@
         </div>
 
         <div class="analysis-box">
-          <h4>// Phân tích: Thách thức kỹ thuật &amp; Đạo đức LLMs 2025</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>📊</span>
+            <h4>Phân tích: Thách thức kỹ thuật &amp; Đạo đức LLMs 2025</h4>
+          </div>
           <div class="analysis-grid">
             <div>
               <strong>🔬 Đột phá kiến trúc (Technical Breakthroughs)</strong>
@@ -347,7 +396,10 @@
           </div>
         </div>
 
-        <a class="action-btn" href="docs/w2.docx" download>$ download Bai2.docx</a>
+        <a class='action-btn' href='docs/w2.docx' download>
+          <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path><polyline points='7 10 12 15 17 10'></polyline><line x1='12' y1='15' x2='12' y2='3'></line></svg>
+          Tải Báo cáo Bài 2 (.docx)
+        </a>
       </article>
     </section>
 
@@ -416,7 +468,10 @@
         </div>
 
         <div class="principles-grid">
-          <h4>// 8 nguyên tắc vàng Prompt Engineering cho developer</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>💡</span>
+            <h4>8 nguyên tắc vàng Prompt Engineering cho lập trình viên</h4>
+          </div>
           <div class="principles-container">
             <div class="principle-item">
               <h5>[1] Role Injection</h5>
@@ -453,7 +508,10 @@
           </div>
         </div>
 
-        <a class="action-btn" href="docs/w3.pdf" target="_blank">$ open Bai3.pdf</a>
+        <a class='action-btn' href='docs/w3.pdf' target='_blank'>
+          <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path><polyline points='15 3 21 3 21 9'></polyline><line x1='10' y1='14' x2='21' y2='3'></line></svg>
+          Xem tài liệu Bài 3 (PDF)
+        </a>
       </article>
     </section>
 
@@ -495,7 +553,10 @@
             <div class="term-dot yellow"></div>
             <div class="term-dot green"></div>
           </div>
-          <h4>// Google Drive Project Structure</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>📂</span>
+            <h4>Cấu trúc thư mục dự án trên Google Drive</h4>
+          </div>
           <pre class="folder-tree">📂 DuAn_ChuyenDoiSo_GiaoDuc/
 ├── 📂 01_TaiLieu_ThamKhao/
 │   ├── 📄 [LeGB]_Stanford_AI_Report_2025.pdf
@@ -525,7 +586,10 @@
           </div>
         </div>
 
-        <a class="action-btn" href="docs/w4.docx" download>$ download Bai4.docx</a>
+        <a class='action-btn' href='docs/w4.docx' download>
+          <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path><polyline points='7 10 12 15 17 10'></polyline><line x1='12' y1='15' x2='12' y2='3'></line></svg>
+          Tải Báo cáo Bài 4 (.docx)
+        </a>
       </article>
     </section>
 
@@ -559,7 +623,7 @@
 
         <div class="table-wrap">
           <table>
-            <caption>// Content iteration: AI draft vs. Personal edit</caption>
+            <caption><span class='caption-badge'>Bảng đối chiếu</span> Quy trình lặp nội dung: AI nháp vs. Người biên tập</caption>
             <thead>
               <tr>
                 <th>Section</th>
@@ -598,7 +662,10 @@
         </div>
 
         <div class="ethics-box">
-          <h4>// Trách nhiệm khi dùng AI trong sáng tạo</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>🛡️</span>
+            <h4>Trách nhiệm khi dùng AI trong sáng tạo</h4>
+          </div>
           <ul>
             <li><strong>Attribution:</strong> Luôn ghi rõ "AI-assisted with [ChatGPT/DALL·E]" trong sản phẩm — minh bạch như ghi nguồn tài liệu tham khảo.</li>
             <li><strong>Originality:</strong> Human thinking chiếm &gt;50% — AI là công cụ, không phải tác giả. Em là người chịu trách nhiệm toàn bộ nội dung cuối cùng.</li>
@@ -606,7 +673,10 @@
           </ul>
         </div>
 
-        <a class="action-btn" href="docs/w5.docx" download>$ download Bai5.docx</a>
+        <a class='action-btn' href='docs/w5.docx' download>
+          <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'></path><polyline points='7 10 12 15 17 10'></polyline><line x1='12' y1='15' x2='12' y2='3'></line></svg>
+          Tải Báo cáo Bài 5 (.docx)
+        </a>
       </article>
     </section>
 
@@ -701,7 +771,10 @@
         </div>
 
         <div class="ethics-box">
-          <h4>// Framework 7 nguyên tắc sử dụng AI có trách nhiệm tại UET</h4>
+          <div class='section-subtitle'>
+            <span class='subtitle-icon'>📜</span>
+            <h4>Khung 7 nguyên tắc sử dụng AI có trách nhiệm tại UET</h4>
+          </div>
           <div class="principles-grid-v6">
             <div class="p-card-v6">
               <strong>[1] AI as Tool, Not Author</strong>
@@ -735,8 +808,14 @@
         </div>
 
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
-          <a class="action-btn" href="docs/w6a.pdf" target="_blank">$ open Bai6a.pdf</a>
-          <a class="action-btn" href="docs/w6b.png" target="_blank" style="border-color:var(--green);color:var(--green);">$ open Bai6b.png (Infographic)</a>
+          <a class='action-btn' href='docs/w6a.pdf' target='_blank'>
+            <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path><polyline points='15 3 21 3 21 9'></polyline><line x1='10' y1='14' x2='21' y2='3'></line></svg>
+            Xem Báo cáo Bài 6 (PDF)
+          </a>
+          <a class='action-btn btn-green' href='docs/w6b.png' target='_blank'>
+            <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' class='btn-icon'><path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path><polyline points='15 3 21 3 21 9'></polyline><line x1='10' y1='14' x2='21' y2='3'></line></svg>
+            Xem Infographic Bài 6 (PNG)
+          </a>
         </div>
       </article>
     </section>
