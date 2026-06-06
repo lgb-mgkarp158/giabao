@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Portfolio CNS - Lê Gia Bảo</title>
+  <meta name="description" content="Digital Portfolio học phần Nhập môn Công nghệ số - Lê Gia Bảo, MSV 25021648, Khoa học Máy tính K70I-CS3, Đại học Công nghệ ĐHQGHN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="profile-section">
+      <div class="avatar-container">
+        <img class="profile-avatar" src="assets/avatar.jpg" alt="Lê Gia Bảo Avatar">
+        <div class="avatar-glow"></div>
+      </div>
+      <h2>Lê Gia Bảo</h2>
+      <p class="student-id">MSV: 25021648 · K70I-CS3</p>
+      <div class="badge-container">
+        <span class="badge major-badge">Khoa học Máy tính</span>
+        <span class="badge institution-badge">Đại học Công nghệ, ĐHQGHN</span>
+      </div>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="#intro"      class="nav-item active" id="nav-intro">⚡ Giới thiệu</a>
+      <a href="#task-1"     class="nav-item" id="nav-task-1">📁 Bài 1: Quản lý tệp tin</a>
+      <a href="#task-2"     class="nav-item" id="nav-task-2">🔬 Bài 2: Nghiên cứu LLMs &amp; AI</a>
+      <a href="#task-3"     class="nav-item" id="nav-task-3">💬 Bài 3: Viết Prompt AI</a>
+      <a href="#task-4"     class="nav-item" id="nav-task-4">👥 Bài 4: Hợp tác nhóm số</a>
+      <a href="#task-5"     class="nav-item" id="nav-task-5">🎨 Bài 5: AI tạo sinh sáng tạo</a>
+      <a href="#task-6"     class="nav-item" id="nav-task-6">🛡️ Bài 6: AI có trách nhiệm</a>
+      <a href="#reflection" class="nav-item" id="nav-reflection">🚀 Phản tư &amp; Định hướng</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>// VNU1001_E252050</p>
+      <p>// Học kỳ II · 2026</p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+
+    <!-- ==================== INTRO ==================== -->
+    <section class="section active" id="intro">
+      <div class="hero-card">
+        <div class="grid-lines"></div>
+        <p class="eyebrow">// Digital Portfolio · Nhập môn Công nghệ số &amp; AI · UET-ĐHQGHN</p>
+        <h1>Hành trình chinh phục Khoa học Máy tính &amp; Trí tuệ Nhân tạo</h1>
+        <p class="lead">Chào mừng đến không gian học thuật số của Lê Gia Bảo — sinh viên năm nhất ngành Khoa học Máy tính, Đại học Công nghệ. Đây là nơi hệ thống hóa 6 bài thực hành của học phần VNU1001, thể hiện hành trình từ thao tác tệp tin cơ bản đến nghiên cứu chuyên sâu về Mô hình Ngôn ngữ Lớn và ứng dụng AI có trách nhiệm.</p>
+
+        <div class="intro-grid">
+          <div class="intro-box">
+            <span class="box-icon">🖥️</span>
+            <h4>Computer Science</h4>
+            <p>Nền tảng toán học và thuật toán vững chắc, tư duy lập trình hệ thống và giải quyết vấn đề phức tạp trong kỷ nguyên AI.</p>
+          </div>
+          <div class="intro-box">
+            <span class="box-icon">🧠</span>
+            <h4>AI &amp; Machine Learning</h4>
+            <p>Nghiên cứu LLMs, Generative AI và các mô hình học sâu đang định hình lại toàn bộ ngành công nghiệp phần mềm toàn cầu.</p>
+          </div>
+          <div class="intro-box">
+            <span class="box-icon">⚙️</span>
+            <h4>Build &amp; Create</h4>
+            <p>Từ quản lý dữ liệu đến hợp tác số và sáng tạo nội dung — xây dựng sản phẩm thực chiến kết hợp tư duy kỹ thuật và AI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TASK 1 ==================== -->
+    <section class="section" id="task-1">
+      <article class="task-card">
+        <div class="task-head">
+          <span>01</span>
+          <div>
+            <h2>Thao tác cơ bản với Tệp tin &amp; Thư mục</h2>
+            <p>Xây dựng hệ thống quản lý dữ liệu cá nhân khoa học trên Windows — nền tảng của mọi workflow lập trình chuyên nghiệp.</p>
+          </div>
+        </div>
+
+        <p class="lead-text">Với tư duy của một lập trình viên, việc tổ chức tệp tin khoa học không chỉ là kỹ năng cơ bản mà còn là nền tảng cho version control, build systems và quản lý dự án phần mềm. Em đã thực hành chuỗi 10 bước thiết lập cấu trúc thư mục chuẩn:</p>
+
+        <div class="process-flow">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <p><strong>Mở File Explorer:</strong> Nhấn <code>Win + E</code> hoặc click biểu tượng thư mục trên Taskbar.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <p><strong>Truy cập ổ D:</strong> Chọn ổ lưu trữ ngoài hệ thống để bắt đầu tạo workspace học tập.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <p><strong>Tạo thư mục gốc:</strong> Chuột phải → <code>New &gt; Folder</code> → đặt tên <code>ThucHanh_LeGiaBao</code>.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">04</div>
+            <p><strong>Tạo file ghi chú:</strong> Trong thư mục → <code>New &gt; Text Document</code> → tên <code>README.txt</code>.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">05</div>
+            <p><strong>Rename chuẩn hóa:</strong> <code>F2</code> để đổi tên → quy tắc: snake_case, không dấu, có ngày tháng.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">06</div>
+            <p><strong>Tạo thư mục con:</strong> Chuột phải → tạo <code>src/</code>, <code>docs/</code>, <code>assets/</code> theo cấu trúc dự án.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">07</div>
+            <p><strong>Copy file:</strong> <code>Ctrl+C</code> → navigate vào thư mục đích → <code>Ctrl+V</code>. Giữ nguyên file gốc.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">08</div>
+            <p><strong>Move file:</strong> <code>Ctrl+X</code> → <code>Ctrl+V</code>. File biến khỏi vị trí cũ — tương đương <code>mv</code> trong Linux.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">09</div>
+            <p><strong>Xóa an toàn:</strong> <code>Delete</code> → Recycle Bin. Xóa vĩnh viễn: <code>Shift+Delete</code> (không khôi phục được).</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">10</div>
+            <p><strong>Khôi phục:</strong> Mở Recycle Bin → chuột phải file → <code>Restore</code> trả về vị trí ban đầu.</p>
+          </div>
+        </div>
+
+        <div class="terminal-box">
+          <div class="term-header">
+            <div class="term-dot red"></div>
+            <div class="term-dot yellow"></div>
+            <div class="term-dot green"></div>
+          </div>
+          <pre class="folder-tree">D:\
+└── ThucHanh_LeGiaBao/
+    ├── README.txt
+    ├── src/
+    │   └── main_project/
+    ├── docs/
+    │   └── GhiChu_QuanTrong.txt  ← (Restored from Recycle Bin)
+    └── assets/
+        └── DiChuyen.txt          ← (Moved from root)</pre>
+        </div>
+
+        <a class="action-btn" href="docs/w1.docx" download>$ download Bai1.docx</a>
+      </article>
+    </section>
+
+    <!-- ==================== TASK 2 ==================== -->
+    <section class="section" id="task-2">
+      <article class="task-card">
+        <div class="task-head">
+          <span>02</span>
+          <div>
+            <h2>Nghiên cứu: Tiến trình Phát triển các Mô hình Ngôn ngữ Lớn (LLMs) 2024–2025</h2>
+            <p>Phân tích chuyên sâu năng lực kỹ thuật, đột phá kiến trúc và thách thức đạo đức của AI/LLMs trong giai đoạn bùng nổ.</p>
+          </div>
+        </div>
+
+        <div class="research-intro">
+          <h4>// Bối cảnh nghiên cứu</h4>
+          <p>Năm 2025 đánh dấu bước ngoặt lịch sử trong chu kỳ nghiên cứu AI: các LLMs chuyển dịch từ công cụ thử nghiệm đơn lẻ thành hạ tầng tiện ích toàn cầu thiết yếu. Stanford HAI báo cáo tổng đầu tư tư nhân vào Generative AI đạt <strong>33.9 tỷ USD</strong>, chiếm &gt;20% tổng đầu tư AI toàn cầu. IEEE dự báo LLMs đang tạo ra "sân chơi bình đẳng" mới cho doanh nghiệp — định hình lại cấu trúc tự động hóa thông minh.</p>
+          <div class="query-block">
+            <strong>Search query:</strong>
+            <code>"large language models" AND ("2024" OR "2025") AND ("architecture" OR "reasoning" OR "ethics") site:arxiv.org OR site:scholar.google.com</code>
+          </div>
+        </div>
+
+        <div class="llm-cards">
+          <div class="llm-card gpt">
+            <div class="llm-icon">🤖</div>
+            <h5>GPT-4o / o3 (OpenAI)</h5>
+            <p>Multimodal flagship. o3 đạt điểm vượt chuyên gia tại ARC-AGI. API được tích hợp sâu vào hệ sinh thái Microsoft 365.</p>
+          </div>
+          <div class="llm-card gemini">
+            <div class="llm-icon">💎</div>
+            <h5>Gemini 2.0 (Google)</h5>
+            <p>Context window 1M tokens. Native multimodal. Tích hợp Google Search real-time, dẫn đầu về lập luận đa bước.</p>
+          </div>
+          <div class="llm-card claude">
+            <div class="llm-icon">🔶</div>
+            <h5>Claude 3.5 Sonnet (Anthropic)</h5>
+            <p>Constitutional AI approach. Dẫn đầu về coding benchmarks (SWE-bench). Được đánh giá cao nhất về safety alignment.</p>
+          </div>
+          <div class="llm-card llama">
+            <div class="llm-icon">🦙</div>
+            <h5>Llama 3.1 (Meta, Open)</h5>
+            <p>405B parameters, fully open-source. Phá vỡ độc quyền thương mại — cho phép fine-tune, deploy on-premise tự do.</p>
+          </div>
+          <div class="llm-card mistral">
+            <div class="llm-icon">🌪️</div>
+            <h5>Mistral Large 2</h5>
+            <p>Châu Âu đối trọng với Mỹ. MoE architecture hiệu quả. Dẫn đầu về multilingual capabilities trong EU context.</p>
+          </div>
+          <div class="llm-card grok">
+            <div class="llm-icon">⚡</div>
+            <h5>Grok-2 (xAI, Elon Musk)</h5>
+            <p>Real-time Twitter/X data integration. Không có content filtering mạnh — phong cách trả lời táo bạo và "unfiltered".</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <caption>// Bảng đánh giá độ tin cậy 10 nguồn tài liệu tham khảo chính</caption>
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Tài liệu / Tác giả / Năm</th>
+                <th>Tác giả (A)</th>
+                <th>NXB / Cơ quan (P)</th>
+                <th>Phương pháp (M)</th>
+                <th>Trích dẫn (C)</th>
+                <th>Cập nhật (U)</th>
+                <th>Tổng thể</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><strong>Stanford AI Index Report 2025 (HAI, 2025)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Xuất sắc</span></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><strong>IEEE CS Tech Predictions 2025 (IEEE, 2025)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><strong>Attention Is All You Need (Vaswani et al., 2017)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">100k+ citations</span></td>
+                <td><span class="rating-badge rating-low">Kinh điển</span></td>
+                <td><span class="rating-badge rating-vhigh">Nền tảng</span></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><strong>Llama 3 Technical Report (Meta AI, 2024)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><strong>Gemini: A Family of Highly Capable MLMs (Google, 2024)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><strong>Constitutional AI: Harmlessness from AI Feedback (Bai et al., 2023)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td><strong>Scaling Laws for LLMs (Kaplan et al., OpenAI, 2020)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-med">Trung bình</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td><strong>ARC Prize 2024 – AGI Benchmark (ARC Prize, 2024)</strong></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-med">Trung bình</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td><strong>SWE-bench: Can LLMs Resolve GitHub Issues? (2024)</strong></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td><strong>EU AI Act Full Text (European Parliament, 2024)</strong></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-high">Cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+                <td><span class="rating-badge rating-vhigh">Rất cao</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="analysis-box">
+          <h4>// Phân tích: Thách thức kỹ thuật &amp; Đạo đức LLMs 2025</h4>
+          <div class="analysis-grid">
+            <div>
+              <strong>🔬 Đột phá kiến trúc (Technical Breakthroughs)</strong>
+              <ul>
+                <li>Mixture-of-Experts (MoE): Kích hoạt chọn lọc tham số, giảm chi phí tính toán 60–80%.</li>
+                <li>Extended context windows (1M+ tokens): Xử lý toàn bộ codebase lớn trong một lần.</li>
+                <li>Chain-of-Thought reasoning: o3 vượt chuyên gia tại các bài thi STEM phức tạp.</li>
+                <li>Multimodal native: Text + Image + Audio + Video trong một kiến trúc thống nhất.</li>
+              </ul>
+            </div>
+            <div>
+              <strong>⚠️ Thách thức đạo đức (Ethical Challenges)</strong>
+              <ul>
+                <li>Hallucination: Mô hình tự tin cung cấp thông tin sai — nguy hiểm trong y tế, pháp lý.</li>
+                <li>Bias &amp; Fairness: Training data phản ánh thiên kiến xã hội, bất bình đẳng địa lý.</li>
+                <li>Carbon footprint: Training GPT-4 tương đương 100 tấn CO₂ — sustainability crisis.</li>
+                <li>Copyright infringement: Tranh cãi pháp lý về quyền sở hữu dữ liệu huấn luyện.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <a class="action-btn" href="docs/w2.docx" download>$ download Bai2.docx</a>
+      </article>
+    </section>
+
+    <!-- ==================== TASK 3 ==================== -->
+    <section class="section" id="task-3">
+      <article class="task-card">
+        <div class="task-head">
+          <span>03</span>
+          <div>
+            <h2>Kỹ nghệ viết Prompt AI hiệu quả (Prompt Engineering)</h2>
+            <p>Thử nghiệm hệ thống 3 cấp độ Prompt và xây dựng bộ nguyên tắc tối ưu hóa tương tác với LLMs.</p>
+          </div>
+        </div>
+
+        <p class="lead-text">Prompt Engineering là kỹ năng cốt lõi để khai thác tối đa sức mạnh của LLMs. Em đã thử nghiệm trực tiếp với chủ đề <strong>AI trong Giáo dục &amp; Công nghệ Phần mềm</strong> để phân tích sự chênh lệch chất lượng đầu ra theo từng cấp độ:</p>
+
+        <div class="prompt-table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Tiêu chí</th>
+                <th>🔴 Prompt cơ bản</th>
+                <th>🟡 Prompt cải tiến</th>
+                <th>🟢 Prompt nâng cao</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Nội dung câu lệnh</strong></td>
+                <td><code>Giải thích AI là gì?</code></td>
+                <td><code>Giải thích AI theo 3 khía cạnh: định nghĩa kỹ thuật, ứng dụng thực tế và tác động xã hội. Viết cho sinh viên CS năm nhất.</code></td>
+                <td><code>Vai trò: Giảng viên CS cấp cao tại MIT. Đối tượng: Sinh viên K70 UET. Nhiệm vụ: (1) Định nghĩa AI/ML/DL phân cấp rõ ràng; (2) Ví dụ 3 ứng dụng thực tế 2024-2025; (3) Đặt câu hỏi phản tư về ethics. Định dạng: Có heading, bullet points, kết thúc bằng quiz ngắn.</code></td>
+              </tr>
+              <tr>
+                <td><strong>Mức độ chính xác</strong></td>
+                <td>3/5 – Chung chung, thiếu depth</td>
+                <td>4/5 – Có cấu trúc, đúng đối tượng</td>
+                <td>5/5 – Chính xác, phân cấp rõ, có pedagogy</td>
+              </tr>
+              <tr>
+                <td><strong>Chiều sâu nội dung</strong></td>
+                <td>Định nghĩa Wikipedia-level</td>
+                <td>Có ví dụ thực tế, liên hệ được</td>
+                <td>Phân cấp AI→ML→DL→LLM, technical depth cao</td>
+              </tr>
+              <tr>
+                <td><strong>Cấu trúc trả lời</strong></td>
+                <td>Prose duy nhất, không heading</td>
+                <td>3 phần logic, dễ đọc</td>
+                <td>Structured output: heading, sub-points, quiz</td>
+              </tr>
+              <tr>
+                <td><strong>Khả năng tái sử dụng</strong></td>
+                <td>Thấp — cần hỏi lại nhiều lần</td>
+                <td>Trung bình — có thể iterate</td>
+                <td>Cao — template reusable, parameterizable</td>
+              </tr>
+              <tr>
+                <td><strong>Bloom's Taxonomy</strong></td>
+                <td>Remember (Level 1)</td>
+                <td>Understand + Apply (Level 2-3)</td>
+                <td>Analyze + Evaluate + Create (Level 4-6)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="principles-grid">
+          <h4>// 8 nguyên tắc vàng Prompt Engineering cho developer</h4>
+          <div class="principles-container">
+            <div class="principle-item">
+              <h5>[1] Role Injection</h5>
+              <p>Gán vai trò chuyên gia cụ thể: "Bạn là senior software engineer tại Google" kích hoạt domain knowledge sâu hơn.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[2] Chain-of-Thought (CoT)</h5>
+              <p>Thêm "Think step by step" — buộc model reasoning tuần tự, giảm thiểu hallucination đáng kể trên các bài toán logic.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[3] Few-Shot Examples</h5>
+              <p>Cung cấp 2-3 ví dụ mẫu Input→Output để model học pattern định dạng mong muốn chính xác.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[4] Output Format Control</h5>
+              <p>Chỉ định rõ: JSON, Markdown table, Python code block — tránh parse thủ công output không nhất quán.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[5] Context Window Management</h5>
+              <p>Đưa thông tin quan trọng nhất vào đầu và cuối prompt — model chú ý nhiều hơn ở hai vị trí này (primacy &amp; recency).</p>
+            </div>
+            <div class="principle-item">
+              <h5>[6] Negative Prompting</h5>
+              <p>Rõ ràng "Không bao gồm...", "Tránh..." — giảm noise, tập trung model vào đúng yêu cầu.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[7] Iterative Refinement</h5>
+              <p>Treat prompts như code — version control, A/B test và measure output quality systematically.</p>
+            </div>
+            <div class="principle-item">
+              <h5>[8] Temperature &amp; Parameters</h5>
+              <p>Low temp (0.1-0.3) cho factual/code tasks; High temp (0.7-1.0) cho creative writing — tuning theo use case.</p>
+            </div>
+          </div>
+        </div>
+
+        <a class="action-btn" href="docs/w3.pdf" target="_blank">$ open Bai3.pdf</a>
+      </article>
+    </section>
+
+    <!-- ==================== TASK 4 ==================== -->
+    <section class="section" id="task-4">
+      <article class="task-card">
+        <div class="task-head">
+          <span>04</span>
+          <div>
+            <h2>Hợp tác số &amp; Quản lý Dự án nhóm trực tuyến</h2>
+            <p>Vận hành dự án nhóm "Chuyển đổi số trong Giáo dục Đại học" sử dụng bộ 4 công cụ số chuyên nghiệp trong 1 tuần.</p>
+          </div>
+        </div>
+
+        <p class="lead-text">Trong dự án nhóm về chủ đề <strong>"Xây dựng bài thuyết trình về Chuyển đổi số trong Giáo dục Đại học"</strong>, em đã thiết lập và vận hành hệ sinh thái công cụ số tương đương workflow của một software development team thực thụ:</p>
+
+        <div class="tools-usage-grid">
+          <div class="tool-card trello">
+            <h5>📋 Trello (Task Manager)</h5>
+            <p>Kanban board với 4 columns: <code>To Do → In Progress → Review → Done</code>. Mỗi card gắn label màu ưu tiên, due date và assignee rõ ràng. Sprint planning 3 ngày một lần để sync tiến độ.</p>
+          </div>
+          <div class="tool-card gdocs">
+            <h5>📝 Google Docs (Collaborative Writing)</h5>
+            <p>Real-time co-authoring với version history đầy đủ. Áp dụng quy tắc: chỉ dùng <b>Suggesting mode</b> khi edit phần của người khác. Dùng <code>@mention</code> để assign review task.</p>
+          </div>
+          <div class="tool-card gdrive">
+            <h5>📂 Google Drive (Asset Storage)</h5>
+            <p>Naming convention: <code>[NguyenLGB]_[Ten_File]_[YYYYMMDD].ext</code>. Phân quyền: Member = Edit, Instructor = View+Comment. Backup hàng ngày bằng Drive Activity Log.</p>
+          </div>
+          <div class="tool-card teams">
+            <h5>💬 Microsoft Teams (Communication)</h5>
+            <p>Dedicated channels: <code>#general</code>, <code>#announcements</code>, <code>#tech-support</code>. Daily standup 15 phút qua Teams meeting. Tích hợp trực tiếp với Trello và Google Drive notifications.</p>
+          </div>
+        </div>
+
+        <div class="drive-tree-box">
+          <div class="term-header">
+            <div class="term-dot red"></div>
+            <div class="term-dot yellow"></div>
+            <div class="term-dot green"></div>
+          </div>
+          <h4>// Google Drive Project Structure</h4>
+          <pre class="folder-tree">📂 DuAn_ChuyenDoiSo_GiaoDuc/
+├── 📂 01_TaiLieu_ThamKhao/
+│   ├── 📄 [LeGB]_Stanford_AI_Report_2025.pdf
+│   └── 📄 [LeGB]_UNESCO_DigitalEdu_2023.pdf
+├── 📂 02_NoiDung_ThuyetTrinh/
+│   ├── 📄 [All]_BanThao_Slide_v1.pptx
+│   └── 📄 [All]_BanThao_BaoCao_v3.docx
+├── 📂 03_HinhAnh_MinhChung/
+│   ├── 📸 Screenshot_Trello_Sprint1.png
+│   └── 📸 Teams_Meeting_20260514.png
+└── 📄 README_DuAn.md</pre>
+        </div>
+
+        <div class="challenges-box">
+          <h4>⚠️ Challenges &amp; Solutions</h4>
+          <div class="challenge-item">
+            <strong>🔀 Merge conflicts trên Google Docs: 2 người edit cùng lúc gây mất nội dung</strong>
+            <p>💡 Fix: Enforce Suggesting mode bắt buộc. Tạo "Edit Windows" — mỗi người chỉ edit phần của mình trong 2 tiếng cụ thể. Giải quyết conflict bằng cuộc họp 15 phút.</p>
+          </div>
+          <div class="challenge-item">
+            <strong>📱 Notification overload: Teams notifications làm giảm năng suất</strong>
+            <p>💡 Fix: Setup Do Not Disturb schedule. Chỉ @mention khi cần phản hồi gấp. Tổng hợp updates vào daily standup thay vì real-time messaging liên tục.</p>
+          </div>
+          <div class="challenge-item">
+            <strong>📊 Trello cards không được cập nhật đủ — tiến độ mờ nhạt</strong>
+            <p>💡 Fix: Áp dụng "Definition of Done" rõ ràng cho mỗi card. Automation rules: khi Google Doc link được thêm → auto-move card sang Review column.</p>
+          </div>
+        </div>
+
+        <a class="action-btn" href="docs/w4.docx" download>$ download Bai4.docx</a>
+      </article>
+    </section>
+
+    <!-- ==================== TASK 5 ==================== -->
+    <section class="section" id="task-5">
+      <article class="task-card">
+        <div class="task-head">
+          <span>05</span>
+          <div>
+            <h2>Ứng dụng AI Tạo sinh trong Sáng tạo Nội dung số</h2>
+            <p>Thiết kế Infographic "AI Tạo sinh &amp; Tương lai Sáng tạo Nội dung số" kết hợp ChatGPT + DALL·E + Canva AI.</p>
+          </div>
+        </div>
+
+        <p class="lead-text">Áp dụng workflow sáng tạo tích hợp AI với vai trò <strong>"Technical Content Director"</strong> — kết hợp khả năng của bộ 3 công cụ AI tạo sinh để sản xuất infographic chuyên nghiệp về tác động AI lên ngành sáng tạo nội dung số:</p>
+
+        <div class="ai-pipeline">
+          <div class="pipeline-step">
+            <strong>⬡ Stage 1: Content Generation — ChatGPT</strong>
+            <p>Prompt nhập vai chuyên gia content strategist để tạo dàn ý 5 khía cạnh chính. Kết quả: Cấu trúc nội dung mạch lạc, ngôn ngữ chuyên nghiệp. Cần biên tập: Thêm ví dụ thực tế Vietnam context, điều chỉnh tone phù hợp Gen Z. Đóng góp cá nhân &gt;50% nội dung cuối.</p>
+          </div>
+          <div class="pipeline-step">
+            <strong>⬡ Stage 2: Visual Generation — DALL·E 3</strong>
+            <p>Prompt: <code>"Flat design illustration, AI robot collaborating with human designer on digital screen, modern tech style, neon cyan and purple color palette, infographic-ready, white background"</code>. Output chất lượng cao, phong cách hiện đại. Xử lý: Remove.bg để xuất PNG trong suốt, chỉnh hue sang brand colors.</p>
+          </div>
+          <div class="pipeline-step">
+            <strong>⬡ Stage 3: Design Assembly — Canva AI + Magic Design</strong>
+            <p>Magic Design tạo 4 template variations → Chọn layout tốt nhất → Can thiệp thủ công 60%: Thay icon AI-generated, sắp xếp luồng thông tin Z-pattern, typography: Space Grotesk title + Inter body, brand color palette theo CSS variables cá nhân.</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <caption>// Content iteration: AI draft vs. Personal edit</caption>
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>AI Generated Draft</th>
+                <th>Personal Edited Version</th>
+                <th>Improvement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Title</strong></td>
+                <td>"AI in Content Creation"</td>
+                <td><strong>"AI Tạo Sinh &amp; Tương Lai Sáng Tạo — Bạn hay Đối Thủ?"</strong></td>
+                <td>Gây tò mò, phù hợp truyền thông Việt Nam, tạo engagement.</td>
+              </tr>
+              <tr>
+                <td><strong>Point 1</strong></td>
+                <td>"AI can generate text content quickly"</td>
+                <td><strong>"10 giây vs. 10 giờ: AI viết nháp — bạn tinh chỉnh linh hồn."</strong></td>
+                <td>Số liệu cụ thể, phép so sánh ấn tượng, cá nhân hóa góc nhìn.</td>
+              </tr>
+              <tr>
+                <td><strong>Point 2</strong></td>
+                <td>"AI assists in image generation"</td>
+                <td><strong>"1 prompt = 4 visual concepts — chọn, tinh chỉnh, thêm 'dấu vân tay' cá nhân."</strong></td>
+                <td>Workflow rõ ràng, nhấn mạnh vai trò chủ động của human.</td>
+              </tr>
+              <tr>
+                <td><strong>Ethics note</strong></td>
+                <td>"Users should be aware of AI limitations"</td>
+                <td><strong>"Disclaimer: 30% AI-assisted. 70% human thinking. Tự hào ghi nhận."</strong></td>
+                <td>Minh bạch, xây dựng trust, chuẩn mực học thuật rõ ràng.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="ethics-box">
+          <h4>// Trách nhiệm khi dùng AI trong sáng tạo</h4>
+          <ul>
+            <li><strong>Attribution:</strong> Luôn ghi rõ "AI-assisted with [ChatGPT/DALL·E]" trong sản phẩm — minh bạch như ghi nguồn tài liệu tham khảo.</li>
+            <li><strong>Originality:</strong> Human thinking chiếm &gt;50% — AI là công cụ, không phải tác giả. Em là người chịu trách nhiệm toàn bộ nội dung cuối cùng.</li>
+            <li><strong>IP Awareness:</strong> Training data của AI có thể vi phạm bản quyền — không sử dụng output thương mại mà không kiểm tra license.</li>
+          </ul>
+        </div>
+
+        <a class="action-btn" href="docs/w5.docx" download>$ download Bai5.docx</a>
+      </article>
+    </section>
+
+    <!-- ==================== TASK 6 ==================== -->
+    <section class="section" id="task-6">
+      <article class="task-card">
+        <div class="task-head">
+          <span>06</span>
+          <div>
+            <h2>AI có Trách nhiệm &amp; Liêm chính Học thuật trong Kỷ nguyên AI</h2>
+            <p>Phân tích rủi ro AI, nhận diện đạo văn, và xây dựng framework sử dụng AI có đạo đức trong môi trường học thuật UET.</p>
+          </div>
+        </div>
+
+        <p class="lead-text">Khi AI trở thành công cụ phổ biến trong học thuật, ranh giới giữa "học cùng AI" và "để AI làm hộ" ngày càng mờ nhạt. Bài báo cáo xây dựng framework rõ ràng để navigate thách thức đạo đức này:</p>
+
+        <div class="plagiarism-types">
+          <div class="plagiarism-card danger">
+            <h5>🔴 Type 1: Direct Plagiarism — Sao chép nguyên văn không trích dẫn</h5>
+            <p>Copy-paste text từ nguồn khác (hoặc ChatGPT output) mà không ghi nhận. Turnitin, PlagScan phát hiện với độ chính xác &gt;95%. Hậu quả: Điểm 0, kỷ luật học thuật, hủy bằng cấp trong trường hợp nghiêm trọng.</p>
+          </div>
+          <div class="plagiarism-card warning">
+            <h5>🟡 Type 2: Patchwriting — Thay từ nhưng giữ cấu trúc gốc</h5>
+            <p>Thay synonym và đổi thứ tự câu nhưng logic và flow vẫn là của nguồn gốc. "Ninja plagiarism" — khó phát hiện hơn nhưng vẫn vi phạm. GPTZero và Originality.ai ngày càng tốt trong phát hiện dạng này.</p>
+          </div>
+          <div class="plagiarism-card">
+            <h5>🟠 Type 3: AI Ghostwriting — Submit toàn bộ output của AI</h5>
+            <p>Mới nổi từ 2023: Dùng ChatGPT viết toàn bộ bài rồi nộp. Công cụ phát hiện AI-text như GPTZero, Copyleaks AI đang được UET và nhiều trường triển khai. Perplexity score thấp = dấu hiệu AI-generated.</p>
+          </div>
+          <div class="plagiarism-card">
+            <h5>⚪ Type 4: Self-Plagiarism — Tái sử dụng bài cũ không khai báo</h5>
+            <p>Nộp lại assignment từ môn học trước cho môn mới mà không xin phép. Ít nghiêm trọng hơn nhưng vẫn vi phạm academic integrity policy của ĐHQGHN.</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <caption>// So sánh hiệu quả công cụ phát hiện đạo văn &amp; AI-generated text</caption>
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Plagiarism Detection</th>
+                <th>AI-text Detection</th>
+                <th>Database Size</th>
+                <th>Free Tier</th>
+                <th>Best For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Turnitin</strong></td>
+                <td><span class="rating-badge rating-vhigh">Industry Best</span></td>
+                <td><span class="rating-badge rating-vhigh">AI Writing Detector</span></td>
+                <td>91B+ pages</td>
+                <td><span class="rating-badge rating-low">Institutional only</span></td>
+                <td>Universities</td>
+              </tr>
+              <tr>
+                <td><strong>GPTZero</strong></td>
+                <td><span class="rating-badge rating-low">No</span></td>
+                <td><span class="rating-badge rating-vhigh">Specialized</span></td>
+                <td>AI models DB</td>
+                <td><span class="rating-badge rating-high">Free (5 docs/mo)</span></td>
+                <td>AI detection</td>
+              </tr>
+              <tr>
+                <td><strong>Copyleaks</strong></td>
+                <td><span class="rating-badge rating-high">High</span></td>
+                <td><span class="rating-badge rating-high">Good</span></td>
+                <td>60B+ pages</td>
+                <td><span class="rating-badge rating-med">100 pages/mo</span></td>
+                <td>Combined check</td>
+              </tr>
+              <tr>
+                <td><strong>Grammarly Premium</strong></td>
+                <td><span class="rating-badge rating-med">Medium</span></td>
+                <td><span class="rating-badge rating-high">AI detection</span></td>
+                <td>Web public</td>
+                <td><span class="rating-badge rating-med">Limited</span></td>
+                <td>Individual writers</td>
+              </tr>
+              <tr>
+                <td><strong>Originality.ai</strong></td>
+                <td><span class="rating-badge rating-high">High</span></td>
+                <td><span class="rating-badge rating-vhigh">Best-in-class</span></td>
+                <td>Multi-source</td>
+                <td><span class="rating-badge rating-low">Pay per check</span></td>
+                <td>Content agencies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="ethics-box">
+          <h4>// Framework 7 nguyên tắc sử dụng AI có trách nhiệm tại UET</h4>
+          <div class="principles-grid-v6">
+            <div class="p-card-v6">
+              <strong>[1] AI as Tool, Not Author</strong>
+              <span>AI là compiler, không phải programmer. Tư duy của bạn mới là source code thực sự của bài nộp.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[2] Verify All Claims</strong>
+              <span>Mọi fact từ AI đều phải cross-check với primary sources. LLMs hallucinate ~15-30% trên factual queries.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[3] No Verbatim Copying</strong>
+              <span>Luôn paraphrase và tích hợp bằng giọng văn cá nhân. Edit ratio: ít nhất 50% nội dung do bạn tạo ra.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[4] Disclose AI Usage</strong>
+              <span>Ghi rõ "Sử dụng ChatGPT/Gemini để hỗ trợ [phần nào]" theo APA 7 AI citation format.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[5] Respect IP Laws</strong>
+              <span>Không dùng AI output thương mại không được phép. Training data của LLMs có thể vi phạm bản quyền.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[6] Privacy First</strong>
+              <span>Không upload dữ liệu nhạy cảm, thông tin cá nhân hay code độc quyền lên các public AI API.</span>
+            </div>
+            <div class="p-card-v6">
+              <strong>[7] Continuous Learning</strong>
+              <span>Dùng AI để học nhanh hơn, không để tránh học. Năng lực thực sự hiện ra khi không có AI bên cạnh.</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+          <a class="action-btn" href="docs/w6a.pdf" target="_blank">$ open Bai6a.pdf</a>
+          <a class="action-btn" href="docs/w6b.png" target="_blank" style="border-color:var(--green);color:var(--green);">$ open Bai6b.png (Infographic)</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ==================== REFLECTION ==================== -->
+    <section class="section" id="reflection">
+      <div class="reflection-box">
+        <h2>🚀 Phản tư &amp; Định hướng phát triển</h2>
+        <p class="reflection-lead">Học phần VNU1001 không chỉ là môn nhập môn — với một sinh viên CS, đây là bản đồ định hướng để hiểu AI đang thay đổi toàn bộ ngành nghề mà mình sẽ theo đuổi. Mỗi bài thực hành là một mảnh ghép trong bức tranh lớn hơn:</p>
+
+        <div class="reflection-grid">
+          <div class="reflect-card">
+            <h4>⚡ Key Technical Insights</h4>
+            <p>Từ nghiên cứu LLMs 2024-2025, em nhận ra: architecture innovation (MoE, long context) đang outpace hardware limits — implications lớn cho career path trong AI/ML Engineering tại Việt Nam và toàn cầu.</p>
+          </div>
+          <div class="reflect-card">
+            <h4>🤝 Collaboration Skills</h4>
+            <p>Kanban workflow, Git-like collaboration trên Google Docs và async communication via Teams — những kỹ năng này sẽ là daily routine trong bất kỳ tech company nào em join sau này.</p>
+          </div>
+          <div class="reflect-card">
+            <h4>🧭 Ethics as Core Competency</h4>
+            <p>EU AI Act, Constitutional AI, hallucination risks — Ethics không phải "mềm" mà là hard requirement cho mọi CS engineer. Bài 6 thay đổi cách em nhìn về trách nhiệm của developer khi build AI systems.</p>
+          </div>
+          <div class="reflect-card">
+            <h4>🎯 Next Steps</h4>
+            <p>Năm 2: Deep dive Python + ML libraries (PyTorch, HuggingFace). Contribute vào open-source LLM projects trên GitHub. Target: Research internship tại VinAI Research hoặc FPT AI Center sau năm 3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
